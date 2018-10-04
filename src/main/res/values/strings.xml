@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Survey Project Admin</string>
+    <string name="tryAgain">Try Again</string>
+    <string name="noWifi">Oops !! No Network Connectivity</string>
+    <string name="SurveyTitle">Here Goes Survey Title</string>
+    <string name="gmap_key">AIzaSyBd7mIrRHL3F2XyiPau3DZPvt79wMthDuA</string>
+    <string name="respodentName">Respodent Name</string>
+    <string name="gender">Gender</string>
+    <string name="Login_btn">Login</string>
+    <string name="email">Enter Your Email</string>
+    <string name="password">Enter Your Password</string>
+    <string name="excel_file_name">Export Excel File</string>
+    <string name="download">Download</string>
+    <string name="download_hint">Note: You Will Find Excel file in your Phone Storage/Survey Report</string>
+</resources>

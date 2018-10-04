@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4sp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:drawableLeft="@drawable/ic_date_range_black_24dp"
+            android:drawablePadding="@dimen/btn_radius"
+            android:padding="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/surveyTitle"
+            android:textSize="18sp"
+            android:text="@string/SurveyTitle"
+            />
+        <TextView
+            android:drawableLeft="@drawable/ic_account_box_black_24dp"
+            android:drawablePadding="@dimen/btn_radius"
+            android:textStyle="bold"
+            android:paddingLeft="5sp"
+            android:paddingBottom="5sp"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/SurveyBy"
+            android:text="Submitted By"
+            />
+        <TextView
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Survey Result"
+            />
+        <TextView
+            android:padding="4sp"
+            android:layout_width="match_parent"
+            android:text="Respodent Name"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="4sp"
+            android:id="@+id/respodentName"
+            android:text="@string/respodentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:padding="4sp"
+            android:layout_width="match_parent"
+            android:text="Gender"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/respodentSex"
+            android:padding="4sp"
+            android:text="@string/gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="4sp"
+            android:text="Age"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/respodentAge"
+            android:layout_width="match_parent"
+            android:padding="4sp"
+            android:text="Age"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="4sp"
+            android:text="Caste"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/respodentCaste"
+            android:layout_width="match_parent"
+            android:padding="4sp"
+            android:text="Caste"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="4sp"
+            android:text="Community"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/respodentCommunity"
+            android:layout_width="match_parent"
+            android:padding="4sp"
+            android:text="Community"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="4sp"
+            android:text="Profession"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/respodentProfession"
+            android:layout_width="match_parent"
+            android:padding="4sp"
+            android:text="Profession"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="4sp"
+            android:text="Address"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/respodentMandal"
+            android:layout_width="match_parent"
+            android:padding="4sp"
+            android:text="Mandal"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="4sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Village"
+            android:id="@+id/respodentVillage"
+            />
+        <TextView
+            android:padding="4sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sub Village"
+            android:id="@+id/respodentSubVillage"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pin Code"
+            android:id="@+id/respodentPin"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="4sp"
+            android:text="Rating"
+            android:layout_height="wrap_content" />
+        <RatingBar
+
+            android:max="5"
+            android:id="@+id/respodentRating"
+            android:layout_width="match_parent"
+            android:padding="4sp"
+            android:text="Rating"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="4sp"
+            android:text="Goverment"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/respodentGovt"
+            />
+
+
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

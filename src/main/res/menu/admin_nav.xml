@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Logout"
+        android:id="@+id/admin_nav_logout"
+        android:icon="@drawable/ic_lock_black_24dp"
+        ></item>
+    <item
+        android:id="@+id/admin_nav_export_excel"
+        android:title="Export In Excel"
+        android:icon="@drawable/ic_insert_drive_file_black_24dp"></item>
+
+</menu>

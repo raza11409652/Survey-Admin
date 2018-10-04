@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@android:color/white">
+
+<RelativeLayout
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6sp">
+
+
+
+        <ImageView
+            android:layout_margin="@dimen/btn_radius"
+            android:layout_width="180sp"
+            android:layout_height="180sp"
+            android:src="@drawable/password"/>
+        <EditText
+            android:id="@+id/email"
+            android:background="@drawable/input_outline"
+            android:paddingTop="12sp"
+            android:paddingBottom="12sp"
+           android:drawableLeft="@drawable/ic_account_box_black_24dp"
+            android:drawablePadding="6sp"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:layout_marginBottom="12sp"
+            />
+        <EditText
+            android:id="@+id/password"
+            android:background="@drawable/input_outline"
+            android:paddingTop="12sp"
+            android:paddingBottom="12sp"
+            android:drawablePadding="6sp"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            />
+        <ProgressBar
+            android:padding="12sp"
+            android:visibility="gone"
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/login"
+            android:textColor="@android:color/white"
+            android:background="@drawable/btn_accent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Login_btn"
+            />
+    </LinearLayout>
+</RelativeLayout>
+</android.support.constraint.ConstraintLayout>
